@@ -1,0 +1,6 @@
+int main() { D<char> d; d.m(); } => compila
+int main() { D<char> d; d.n(); } => non compila
+int main() { D<char> d; d.o(); } => compila
+int main() { D<char> d; d.p(); } => non compila
+int main() { D<char> d; d.p(); } => non compila 
+int main() { D<char> d; d.r(); } => compila
